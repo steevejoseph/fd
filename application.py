@@ -9,7 +9,7 @@ application = Flask(__name__)
 
 @application.route('/', methods=['GET'])
 def index():
-    return "Welcome to the API"
+    return "Welcome to NOT the API"
 
 
 if __name__ == "__main__":
